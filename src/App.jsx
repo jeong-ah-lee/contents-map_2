@@ -29,7 +29,17 @@ const mockData = {
           thumb:
             "https://images.unsplash.com/photo-1534759846116-5791c9f3d458?q=80&w=1200&auto=format&fit=crop",
           link: "#"
+        },
+        {
+          id: "ds-03",
+          title: "AI 데이터랩",
+          summary: "빅데이터·AI",
+          tags: ["데이터", "AI리터러시"],
+          thumb:
+            "https://images.unsplash.com/photo-1534759846116-5791c9f3d458?q=80&w=1200&auto=format&fit=crop",
+          link: "#"
         }
+        
       ]
     },
     {
