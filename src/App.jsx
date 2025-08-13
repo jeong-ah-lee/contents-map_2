@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 
-// 단일 파일 React 앱 – TailwindCSS 기반, 반응형 그리드, 카테고리→콘텐츠 플로우
-// 이미지와 데이터는 아래 mockData에서 수정하세요.
+// Tailwind 기반 반응형 카테고리 → 콘텐츠 목록 앱
+// 변경점: mockData.categories에 "SW미래채움" 카테고리 추가
 
 const mockData = {
   categories: [
@@ -91,6 +91,34 @@ const mockData = {
           tags: ["워크숍", "수업설계"],
           thumb:
             "https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1200&auto=format&fit=crop",
+          link: "#"
+        }
+      ]
+    },
+    // 👉 새로 추가된 카테고리: SW미래채움
+    {
+      id: "sw-future-up",
+      name: "SW미래채움",
+      description: "지역 기반 SW·AI 체험, 진로탐색, 메이킹 프로젝트",
+      image:
+        "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1200&auto=format&fit=crop",
+      contents: [
+        {
+          id: "sw-01",
+          title: "블록코딩으로 만드는 스마트 시티",
+          summary: "엔트리/스크래치로 교통·환경 시뮬레이션",
+          tags: ["블록코딩", "시뮬레이션", "스마트시티"],
+          thumb:
+            "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1200&auto=format&fit=crop",
+          link: "#"
+        },
+        {
+          id: "sw-02",
+          title: "아두이노 메이킹: 환경 모니터",
+          summary: "온습도·조도 센서로 데이터 수집·표시",
+          tags: ["아두이노", "메이킹", "센서"],
+          thumb:
+            "https://images.unsplash.com/photo-1553406830-ef2513450d83?q=80&w=1200&auto=format&fit=crop",
           link: "#"
         }
       ]
