@@ -27,7 +27,7 @@ const mockData = {
           summary: "기초통계·시각화·간단한 예측 실습",
           tags: ["데이터", "AI리터러시"],
           thumb:
-            "https://images.unsplash.com/photo-1534759846116-5791c9f3d458?q=80&w=1200&auto=format&fit=crop",
+            "img/a.jpg",
           link: "#"
         },
         {
